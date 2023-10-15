@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter Clone</title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"> -->
+  </head>
+  <body>
+    <!-- -----SIDEBAR------ -->
+    <div class="sidebar">
+      <i class="fa-brands fa-twitter"></i>
+
+      <div class="sidebarOption active">
+        <i class="fa-solid fa-house"></i>
+        <h2>Home</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <i class="fa-regular fa-hashtag"></i>
+        <h2>Explore</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> list_alt </span>
+        <h2>Lists</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <i class="fa-sharp fa-regular fa-bell"></i>
+        <h2>Notifications</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <i class="fa-sharp fa-regular fa-envelope"></i>
+        <h2>Messages</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <i class="fa-sharp fa-regular fa-bookmark"></i>
+        <h2>Bookmark</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <i class="fa-regular fa-user"></i>
+        <h2>Profile</h2>
+      </div>
+
+      <div class="sidebarOption">
+        <span class="material-icons"> more_horiz </span>
+        <h2>More</h2>
+      </div>
+      <button class="sidebar_tweet">Tweet</button>
+    </div>
+
+    <!-- ----------- FEED----------- -->
+
+    <div class="feed">
+      <div class="feed_header">
+        <h2>Home</h2>
+      </div>
+      <div class="tweetBox">
+        <form>
+          <div class="tweetbox_input">
+            <img src="images/profile.jpg" alt="profile" />
+            <input type="text" placeholder="What's happening" />
+          </div>
+          <button class="tweetbox_btn">Tweet</button>
+        </form>
+      </div>
+
+      <div class="post">
+        <div class="post_avater">
+          <img src="images/profile.jpg" alt="avater" />
+        </div>
+        <div class="post_body">
+          <div class="post_header">
+            <div class="post_headertext">
+              <h3>
+                Nichol Chuks
+                <span class="post_headerSpecial">
+                  <span class="material-icons post__badge">verified</span
+                  >@niccoberry91
+                </span>
+              </h3>
+            </div>
+            <div class="post_headerdescription">
+              <p>
+                Striving for the best, hoping for a better life and trusting in
+                God
+              </p>
+            </div>
+          </div>
+
+          <img src="images/content3.jpg" alt="setup-picture" />
+
+          <div class="post_footer">
+            <i class="fa-regular fa-message"></i>
+            <span class="material-icons">repeat</span>
+            <span class="material-icons">favorite_border</span>
+            <span class="material-icons">publish</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="post">
+        <div class="post_avater">
+          <img src="images/user6.jpg" alt="avater" />
+        </div>
+        <div class="post_body">
+          <div class="post_header">
+            <div class="post_headertext">
+              <h3>
+                Angella Brant
+                <span class="post_headerSpecial">
+                  <span class="material-icons post__badge">verified</span
+                  >@angella_brant
+                </span>
+              </h3>
+            </div>
+            <div class="post_headerdescription">
+              <p>
+                The development of a man, begins with mindset. The greater your
+                thought the brighter you become
+              </p>
+            </div>
+            <p>
+              <span class="link">#ThinkandGrow</span>
+              <span>#PersonalDevelopment</span>
+            </p>
+          </div>
+
+          <div class="post_footer">
+            <i class="fa-regular fa-message"></i>
+            <span class="material-icons">repeat</span>
+            <span class="material-icons">favorite_border</span>
+            <span class="material-icons">publish</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="post">
+        <div class="post_avater">
+          <img src="images/profile.jpg" alt="avater" />
+        </div>
+        <div class="post_body">
+          <div class="post_header">
+            <div class="post_headertext">
+              <h3>
+                Nichol Chuks
+                <span class="post_headerSpecial">
+                  <span class="material-icons post__badge">verified</span
+                  >@niccoberry91
+                </span>
+              </h3>
+            </div>
+            <div class="post_headerdescription">
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+            </div>
+          </div>
+
+          <img src="images/banner6.jpg" alt="setup-picture" />
+
+          <div class="post_footer">
+            <i class="fa-regular fa-message"></i>
+            <span class="material-icons">repeat</span>
+            <span class="material-icons">favorite_border</span>
+            <span class="material-icons">publish</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="post">
+        <div class="post_avater">
+          <img src="images/user7.jpg" alt="avater" />
+        </div>
+        <div class="post_body">
+          <div class="post_header">
+            <div class="post_headertext">
+              <h3>
+                Patrick Scott
+                <span class="post_headerSpecial">
+                  <span class="material-icons post__badge">verified</span
+                  >@PatrickScot
+                </span>
+              </h3>
+            </div>
+            <div class="post_headerdescription">
+              <p>
+                Our real estate company, provides you with good, beautiful and
+                affordable housing in the heart of London. Bank on us and you
+                will not regret it
+              </p>
+            </div>
+          </div>
+
+          <img src="images/banner3.jpg" alt="setup-picture" />
+
+          <div class="post_footer">
+            <i class="fa-regular fa-message"></i>
+            <span class="material-icons">repeat</span>
+            <span class="material-icons">favorite_border</span>
+            <span class="material-icons">publish</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="post">
+        <div class="post_avater">
+          <img src="images/user7.jpg" alt="avater" />
+        </div>
+        <div class="post_body">
+          <div class="post_header">
+            <div class="post_headertext">
+              <h3>
+                Patrick Scott
+                <span class="post_headerSpecial">
+                  <span class="material-icons post__badge">verified</span
+                  >@PatrickScott
+                </span>
+              </h3>
+            </div>
+            <div class="post_headerdescription">
+              <p>
+                The best best Real Estate Company that gives you good value for
+                your money. Invest in yor future by subcribing in one our our
+                Housing plans.
+              </p>
+            </div>
+          </div>
+
+          <div class="post_footer">
+            <i class="fa-regular fa-message"></i>
+            <span class="material-icons">repeat</span>
+            <span class="material-icons">favorite_border</span>
+            <span class="material-icons">publish</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------WIDGET----------------- -->
+
+    <div class="widgets">
+      <div class="widgets_input">
+        <span class="material-icons widgets__searchIcon"></span>
+        <input type="text" placeholder="Search Twitter" />
+      </div>
+
+      <div class="widgets_widgetcontainer">
+        <h2>What's happening?</h2>
+        <blockquote class="twitter-tweet">
+          <p lang="en" dir="ltr">
+            Sunsets don&#39;t get much better than this one over
+            <a href="https://twitter.com/GrandTetonNPS?ref_src=twsrc%5Etfw"
+              >@GrandTetonNPS</a
+            >.
+            <a
+              href="https://twitter.com/hashtag/nature?src=hash&amp;ref_src=twsrc%5Etfw"
+              >#nature</a
+            >
+            <a
+              href="https://twitter.com/hashtag/sunset?src=hash&amp;ref_src=twsrc%5Etfw"
+              >#sunset</a
+            >
+            <a href="http://t.co/YuKy2rcjyU">pic.twitter.com/YuKy2rcjyU</a>
+          </p>
+          &mdash; US Department of the Interior (@Interior)
+          <a
+            href="https://twitter.com/Interior/status/463440424141459456?ref_src=twsrc%5Etfw"
+            >May 5, 2014</a
+          >
+        </blockquote>
+        <script
+          async
+          src="https://platform.twitter.com/widgets.js"
+          charset="utf-8"
+        ></script>
+      </div>
+    </div>
+  </body>
+</html>
